@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn AWS and Amplify, actually. With React as framework. 
         </a>
       </header>
     </div>
