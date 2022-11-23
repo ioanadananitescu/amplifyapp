@@ -9,9 +9,13 @@ import {
   View,
   Card,
 } from "@aws-amplify/ui-react";
+import NavBar from './ui-components';
 
-function App({signOut}) {
+function App({ signOut }) {
+  <NavBar/>
   return (
+
+    
     <View className="App">
     <Card>
       <Image src={logo} className="App-logo" alt="logo" />

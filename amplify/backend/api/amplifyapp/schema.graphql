@@ -1,0 +1,12 @@
+type Works @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  inventar: Int
+  name: String
+  artist: String
+  category: String
+  tags: [String]
+  subject: [String]
+  description: String
+  categorie: String
+}
+ 
