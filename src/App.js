@@ -1,29 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import "@aws-amplify/ui-react/styles.css";
-import {
-  withAuthenticator,
-  Button,
-  Heading,
-  Image,
-  View,
-  Card,
-} from "@aws-amplify/ui-react";
-import NavBar from './ui-components';
+import { Footer } from './ui-components';
+import { Maindesktopframe } from './ui-components';
+import { NavBar } from './ui-components';
 
-function App({ signOut }) {
-  <NavBar/>
-  return (
-
-    
-    <View className="App">
-    <Card>
-      <Image src={logo} className="App-logo" alt="logo" />
-      <Heading level={1}>We now have Auth!</Heading>
-    </Card>
-    <Button onClick={signOut}>Sign Out</Button>
-  </View>
-  );
+function App() {
+  
+  return ( 
+    <div>
+      <NavBar/>
+      <Maindesktopframe />
+      <Footer />
+      </div>
+  )
 }
 
-export default withAuthenticator(App);
+export default App;
